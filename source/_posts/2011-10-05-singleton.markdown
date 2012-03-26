@@ -2,6 +2,7 @@
 layout: post
 title: "Design pattern : Le singleton"
 description: "Le design pattern le plus simple"
+comments: true
 categories: theorie
 tags:
 - java

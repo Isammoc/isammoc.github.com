@@ -2,6 +2,7 @@
 layout: post
 title: "Apprendre jQuery avec tutplus"
 description: "Cours vidéos gratuits en anglais"
+comments: true
 categories: jquery
 tags:
 - javascript

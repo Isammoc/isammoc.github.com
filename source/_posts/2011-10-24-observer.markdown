@@ -2,6 +2,7 @@
 layout: post
 title: "Design pattern : Observateur"
 description: "Le design pattern de l'évènementiel"
+comments: true
 categories: theorie
 tags:
 - java

@@ -2,6 +2,7 @@
 layout: post
 title: "Workflow git-svn"
 description: "Git en tant que client SVN"
+comments: true
 categories: experience
 tags:
 - git

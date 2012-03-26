@@ -2,6 +2,7 @@
 layout: post
 title: "Premier article"
 description: "Bienvenue sur mon blog"
+comments: true
 categories: blabla
 tags:
 - blabla
