@@ -1,0 +1,101 @@
+---
+layout: post
+title: "Design pattern : Observateur"
+description: "Le design pattern de l'évènementiel"
+categories: theorie
+tags:
+- java
+- design pattern
+published: true
+---
+
+Le Design Pattern Observer (Observateur / Observé) est un pattern de comportement. Il permet d'être à l'écoute d'évènements, notemment la modification d'attributs. On appelle souvent "écouteur" les observateurs.
+Autres noms : Dependents, Publish-Subscribe
+
+<!--more-->
+
+## Description du problème ##
+
+On veut depuis une instance connaître le moment où un attribut d'une autre instance est modifié.
+On veut pouvoir effectuer des actions lorsqu'un évènement survient.
+
+Exemple de cas d'utilisation :
+
+ * Lorsque l'on a plusieurs vues sur le mÎÎÎme modèle. (Une image verte ou rouge selon une valeur qui permet également d'activer ou non un bouton).
+ * Lorsque deux valeurs distinctes sont liées. (age avec année de naissance par exemple)
+ * Lorsque l'on change un champ dans une feuille de calcul, le diagramme change automatiquement.
+
+On verra que cela sera très utile dans le concept Modèle - Vue - ContrÎÎÎleur.
+
+## Description de la solution ##
+
+Afin de généraliser, il nous faut savoir quand le sujet est mis à jour.
+Donc, on va créer une interface avec une méthode "miseAJour".
+
+Toujours pour généraliser (et pas avoir besoin de le faire plusieurs fois), on crée une classe abstraite "Observable" avec une méthode qui appelle miseAJour.
+Comme plusieurs instances peuvent observer, on va gérer une liste du coté de l'Observable, qui connait tous les observateurs.
+
+![Diagramme de classe du pattern Observateur] [diaClassObservateur]
+
+Par convention, notifier est public. Puisque le sujet concret peut avoir plusieurs attributs qui changent en même temps, on pourra ne pas appeler notifier durant UNE modification, mais uniquement à la fin de toutes les modifications afin de notifier les observateurs uniquement lorsque le modèle est dans un état stable (après les modifications nécessaires).
+
+### Déroulement usuel ###
+
+ * On crée le sujetConcret.
+ * On crée l'observateur
+ * On abonne l'observateur : sujetConcret.ajouterObservateur(observateur)
+ * A un moment donné, quelqu'un change l'état du sujetConcret (setEtat) ce qui appelle (directement ou non) la méthode "notifier" qui liste tous les observateurs pour appeler leur méthode "miseAJour".
+ * Chaque observateurConcret a son propre comportement. Mais la plupart du temps, il va appeler les accesseurs des états le concernant afin de se mettre à jour.
+
+
+
+## Conséquences ##
+
+Couplage faible entre l'observateur et l'observé : On peut changer l'un indépendammant de l'autre dans une certaine mesure.
+Aucun besoin pour le sujet concret de connaitre tous les types qui vont l'observer. Pas besoin pour mon champ Nombre de connaitre la cellule de ma feuille, mon diagramme en bar, ainsi que mon camembert, ni qu'une autre cellule a besoin de sa valeur pour se calculer; il suffit à mon type Nombre de prévenir ses observateurs qu'il change. C'est à eux de se débrouiller.
+
+On peut à tout moment changer l'observateur de sujet, ce qui est possible en le désabonnant d'un sujet et en l'abonnant à un autre.
+(Réinitialisation d'un modèle, etc.)
+
+Prévoyance de la modification multiple.
+
+/!\ Attention /!\
+On ne doit appeler notifier que si le sujet a réellement été modifié.
+Par exemple : sujetConcret.setEtat(sujetConcret.getEtat()) NE DOIT PAS appeler notifier !!!
+(risque de boucle de notification sans fin lors de modèle lié)
+
+## En Java ##
+### Observable ###
+
+Implémentation de base du pattern. Avec les types :
+
+ * java.util.Observable
+ * java.util.Observer
+
+Dont l'Observable ne notifie les instances d'Observer uniquement si l'on a appelé setChanged() auparavant.
+
+### PropertyChange ###
+
+Implémentation du pattern Observer un peu "amélioré". On notifie en mÎÎÎme temps le nom de l'attribut (la propriété) qui a été modifié, son ancienne et sa nouvelle valeur. (ce qui permet que l'Observateur n'a pas besoin de rappeler le sujet ensuite, voire qu'il n'a mÎÎÎme pas besoin de connaitre le sujet réel, uniquement la valeur modifiée).
+
+ * java.beans.PropertyChangeSupport
+ * java.beans.PropertyChangeListener
+
+La classe de support permet de faire de la délégation. On verra ce principe plus en détail avec le pattern Stratégie.
+
+### VetoableChange ###
+
+ * java.beans.VetoableChangeSupport
+ * java.beans.VetoableChangeListener
+
+Ajout au PropertyChange de la possibilité que l'observateur refuse le changement.(Pas mal pour garder des données cohérentes).
+
+## Références ##
+
+ * <http://fr.wikipedia.org/wiki/Observateur_(patron_de_conception)>
+ * <http://en.wikipedia.org/wiki/Observer_pattern>
+ * <http://www.dofactory.com/Patterns/PatternObserver.aspx>
+ * <http://www.research.ibm.com/designpatterns/example.htm>
+ * <http://perfectjpattern.sourceforge.net/dp-observer.html>
+
+[diaClassObservateur]: http://yuml.me/12748e5a
