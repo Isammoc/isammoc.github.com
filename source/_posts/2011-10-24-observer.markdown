@@ -22,11 +22,11 @@ On veut pouvoir effectuer des actions lorsqu'un évènement survient.
 
 Exemple de cas d'utilisation :
 
- * Lorsque l'on a plusieurs vues sur le mÎÎÎme modèle. (Une image verte ou rouge selon une valeur qui permet également d'activer ou non un bouton).
+ * Lorsque l'on a plusieurs vues sur le même modèle. (Une image verte ou rouge selon une valeur qui permet également d'activer ou non un bouton).
  * Lorsque deux valeurs distinctes sont liées. (age avec année de naissance par exemple)
  * Lorsque l'on change un champ dans une feuille de calcul, le diagramme change automatiquement.
 
-On verra que cela sera très utile dans le concept Modèle - Vue - ContrÎÎÎleur.
+On verra que cela sera très utile dans le concept Modèle - Vue - Contrôleur.
 
 ## Description de la solution ##
 
