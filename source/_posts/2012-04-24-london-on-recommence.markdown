@@ -3,7 +3,7 @@ layout: post
 title: "London, on recommence"
 date: 2012-04-24 22:10
 comments: true
-categories: 
+categories: projet
 ---
 
 J'avais dit dans un [post précédent](http://blog.isammoc.net/blog/2012/03/27/london-epidemic-intro/) que London Epidemic serait un projet que je mènerai jusqu'au bout. J'y compte bien ! Par contre, Rome ne s'étant pas fait en un jour, j'ai grand peine à tenir un rythme et de plus, ce que j'ai pour le moment ne me plait pas. Du coup, je recommence à zéro.
