@@ -1,0 +1,129 @@
+---
+layout: post
+title: "London Epidemic -- Cahier de conception"
+date: 2012-05-31 21:10
+comments: true
+categories: projet
+---
+
+Voici ma vision du jeu *London Epidemic*.
+
+<!--more-->
+
+*London Epidemic* est l'adaptation en ligne d'un jeu de stratégie tour par tour sur table. Chaque joueur incarne une maladie contaminant le plus de quartiers possible. Pas de hasard, juste de la réflexion et le choix des autres joueurs.
+
+## Informations générales ##
+
+Dans *London Epidemic*, chaque joueur choisit une maladie à incarner (Choléra, Malaria, Peste, Rage, Tuberculose ou Typhus). Ensuite, chacun son tour, il choisit une carte action (First !, Propagation, Nouveau foyer, Expansion, Virulence, Surinfection ou Maladie auto-immune) et applique ces effets pour étendre son champ d'action et condamner des îlots marquant des points, ou empêchant les autres d'en faire autant. Des évènements peuvent survenir durant la partie (au choix du joeur ayant le jeton "First !") afin de diversifier les parties.
+
+La version en ligne permettra de jouer en temps réel avec d'autres joueurs sans s'encombrer d'imprimer le plateau de jeu ou les jetons.
+
+## Description détaillée ##
+
+Comme toute application web, celle-ci a besoin d'une page d'accueil, d'une page d'information (a propos), d'une gestion d'utilisateurs (inscription, connexion, gestion de paramètres), d'un moyen de retour utilisateur (feedback) puis à terme d'une FAQ (lorsqu'il y aura des questions auxquelles répondre).
+De plus, cette application web doit gérer le jeu en lui-même en temps réel, ainsi que la gestion des parties depuis la création à la fin de la partie en passant par la reconnexion à une partie en cours ou encore à la possibilité de visionner les parties achevées.
+
+## Bandeau ##
+
+En haut de chaque page du site se trouve le bandeau comportant :
+ * le logo *London Epidemic* : rappelant le site sur lequel se trouve l'internaute
+ * une barre de navigation (Home, Jouer, Compte, Archives, Règles, FAQ, A propos)
+ * une boite de connexion si l'utilisateur n'est pas connecté, ou un rappel de son identifiant de connexion et un lien de déconnexion dans le cas contraire.
+
+### Page d'accueil ###
+
+La page d'accueil est la vitrine d'un site. Il faut qu'elle soit accessible et de préférence jolie. Elle doit en outre informer directement de quoi il est question sur ce site. Pour cela, une courte description est disponible dès cette pageet le visiteur est invité à en connaitre davantage en visitant la page de règles. Si l'utilisateur n'est pas connecté, on lui propose de le faire (dans le coin haut droit) ou de s'inscrire (en plein milieu).
+Si possible, on peut renseigner le visiteur sur quelques statistiques parlantes (nombre de parties jouées par jour / par mois, nombre de parties en cours actuellement, nombre de parties en attente de joueur, etc.)
+
+### Mon compte ###
+
+La page *Mon compte* permet la modification de mot de passe, la modification (ou le renseignement) d'une adresse mail ainsi que la désinscription totale d'un utilisateur.
+
+### Historique ###
+
+La page d'*Historique* liste les parties jouées par l'utilisateur connecté. Par défaut, il n'y a pas de filtre, la liste est ordonnée par date décroissante (le plus récent en premier). Mais la possibilité est laissée à l'utilisateur de filtrer selon un nom de joueur (la liste n'affiche alors que les parties jouées par l'utilisateur ET le joueur en question) ou de changer l'ordre d'affichage.
+
+En cliquant sur une partie donnée, l'utilisateur est redirigé vers une page où il pourra visionner l'évolution de la partie concernée.
+
+### Bibliothèque ###
+
+La page *Bibliothèque* permet à l'utilisateur de visualiser n'importe quelle partie finie (pas seulement les siennes) ou encore voir les parties en train d'être jouée.
+
+### A propos ###
+
+Un peu d'historique du projet, un peu d'explication sur les créateurs du jeu, sur les développeurs de la version en ligne.
+
+### Jouer ###
+
+La page *Jouer* est la page la plus importante du site, c'est celle qui permet de... jouer.
+
+Si l'utilisateur (connecté) n'a pas de partie en cours, cette page liste les parties en attente de joueurs et permet de créer une partie.
+
+Dans le cas où l'utilisateur a une partie en cours, celle-ci s'affiche.
+
+#### Partie en attente de joueurs ####
+
+Lorsque l'utilisateur est sur une partie qui n'a pas encore commencée, un throbber l'invite à patienter et il peut voir les joueurs arriver. A partir de 3 joueurs, le créateur de cette partie peut la démarrer. La partie commence automatiquement si 6 joueurs sont connectés à la partie.
+
+Si un joueur déconnecte (ferme la page de son navigateur ou a des problèmes de connexion), il n'est plus inscrit à cette partie. Si c'est le premier joueur qui déconnecte, le deuxième joueur (ou le joueur connecté à cette partie depuis le plus longtemps) acquiert le statut de créateur.
+
+Lorsque la partie démarre, on passe au choix de la maladie.
+
+#### Choix de la maladie ####
+
+Lorsque la partie démarre, tous les utilisateurs doivent choisir une maladie.
+Les maladies sont affichées dans un ordre aléatoire (qui peut être différent d'un joueur à l'autre) et il suffit de cliquer sur l'une d'elle pour la choisir.
+
+Un chrono démarre à 30 secondes, et les joueurs qui n'ont pas choisi de maladie dans ce laps de temps sont considérés comme spectateur.
+
+Lorsque le chrono atteint 0 ou que tous les joueurs ont choisi une maladie, la mise en place s'effectue.
+
+Dans le cas où il n'y aurait plus assez de joueurs (strictement moins de 3 joueurs), la partie serait annulée.
+
+Sinon, le plateau s'affiche avec les marqueurs de maladie aux emplacements spécifiques. Les joueurs sont réordonnés aléatoirement et la flèche de la roue des évènements est placée sur l'item correspondant à la maladie du premier joueur de la liste.
+
+#### Déroulement ####
+
+![Deroulement du jeu](deroulement.png "Déroulement du jeu")
+
+L'interface principale contient donc :
+
+ * la carte au centre
+ * la roue des évènements dans le coin en haut à droite
+ * la liste des joueurs avec (par joueur) :
+    * la maladie choisie par le joueur (affiche le nom de la maladie au survol)
+    * l'avatar du joueur et son pseudo, lors du survol, affiche des statistiques du joueur sur la partie courante :
+        * les points déjà acquis
+        * le nombre de quartiers condamnés
+        * le nombre de marqueurs maladies
+        * le nombre de porteurs
+        * la taille de la zone d'influence
+    * la carte choisie par le joueur à ce tour si son tour est déjà passé
+
+**Phase d'évènement**
+
+Lors de la phase d'évènement (première phase du joueur First), la roue des évènements prend plus de place et permet au joueur First de choisir le prochain évènement parmis les trois prochains. Les autres joueurs voient juste le résultat : l'aiguille des évènements se déplace d'une nombre de cases correspondant.
+Le joueur First peut donc effectuer l'action correspondante (souvent choisir un ou plusieurs quartiers où appliquer les effets de l'évènement).
+
+**Phase de chancre**
+
+Lors de la phase de chancre, le quartier qui doit chancrer est en surbrillance ainsi que les quartiers voisins. Le joueur peut donc sélectionner le quartier sur lequel déposer le marqueur supplémentaire.
+
+**Phase d'action**
+
+Au début de la phase d'action, le joueur choisit une carte Action parmi celles restantes (non choisies par les joueurs précédents) et effectuent l'action correspondante.
+
+**Phase de porteurs**
+
+Si le joueur possède un ou des porteurs, pour chaque porteur, ce dernier sera en surbrillance ainsi que les quartiers auxquels il peut accéder. Le joueur doit alors cliquer sur l'un de ces quartiers pour y déplacer le porteur.
+
+Si un porteur ne peut se déplacer, il reste là où il est et il n'est donc pas donné à l'utilisateur la possibilité de cliquer sur un quartier.
+
+C'est donc au joueur suivant de faire son tour.
+
+
+## Commentaire ##
+
+Finalement, un mois c'est court pour faire la traduction du document **ET** le document de conception de London. Je ne suis pas réellement fier de ce que je fournis aujourd'hui. Mais je le fournis tout de même afin de pouvoir commencer à faire le site en lui-même. Je vais d'abord commencer par les choses basiques : un layout, la page de règle, voire peut-être la gestion de l'inscription (je vais voir si je peux faire une inscription twitter / facebook / Google, etc.)
+
+N'hésitez pas à faire un petit commentaire ci-dessous si vous avez eu le courage de lire jusqu'au bout mais ne soyez pas trop sévère, je sais qu'il manque plein de choses pour en faire un vrai document de conception.
