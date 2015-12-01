@@ -1,0 +1,54 @@
+.author-container {
+  text-align: center;
+  padding: 2em 2em;
+
+  border: solid 1px gray;
+  h3 {
+    font-size: 2.25em;
+  }
+
+  .author-info {
+    display: flex;
+
+    .author-avatar {
+      width: 10em;
+      height: 10em;
+      border-radius: 50%;
+      box-shadow: 0 0 8px rgba(0,0,0,8);
+      vertical-align: middle;
+    }
+
+    .author-description {
+      padding-top: 2em;
+      padding-left: 1.5em;
+      flex-grow: 1;
+    }
+  }
+
+  .author-social {
+    margin-left: 2em;
+    list-style: none;
+
+    li {
+      display: inline-block;
+      padding-right: .5em;
+      padding-left: .5em;
+
+      a {
+        display: block;
+		width: 2em;
+		height: 2em;
+        line-height: 2em;
+		border-radius: 100%;
+		font-size: 1.3em;
+		color: #fff;
+		background-color: #222;
+        transition: all ease .4s;
+		&:hover {
+		  color: #222;
+		  background-color: #777;
+		}
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{% assign author = site.author %}
+{% if page.author %}
+  {% assign author = page.author %}
+{% endif %}
+
+<div class="author-container">
+  <h3>{{ author.name }}</h3>
+  <div class="author-info">
+    {% if author.avatar %}
+      <img class="author-avatar" src="{{ author.avatar }}" alt="{{ author.name }}"></img>
+    {% endif %}
+    {% if author.description %}
+      <div class="author-description">
+        {{ author.description }}
+      </div>
+    {% endif %}
+  </div>
+  {% if author.uri or author.social or author.email %}
+    <ul class="author-social">
+      {% if author.uri %}
+        <li>
+          <a href="{{ author.uri }}"><i class="fa fa-globe fa-fw"></i></a>
+        </li>
+      {% endif %}
+      {% if author.email %}
+        <li>
+          <a href="mailto:{{ author.email }}"><i class="fa fa-envelope fa-fw"></i></a>
+        </li>
+      {% endif %}
+      {% for network in author.social %}
+        <li>
+          <a href="{{ network.url }}"><i class="fa fa-{{ network.title }} fa-fw"></i></a>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
