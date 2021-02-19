@@ -1,4 +1,4 @@
-baseURL: "http://blog.isammoc.net/"
+baseURL: "https://blog.isammoc.net/"
 languageCode: "fr-fr"
 title: "Au coin d'une table"
 theme: "PaperMod"
