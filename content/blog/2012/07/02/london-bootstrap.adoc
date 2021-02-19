@@ -1,0 +1,42 @@
+---
+layout: post
+title: "London Epidemic - Bootstrap"
+date: 2012-07-02
+time: 21:17
+comments: true
+categories: projet
+---
+
+Après avoir défini plus clairement ma vision de mon projet _London Epidemic_,
+je me suis directement attaqué à la création du projet.
+
+== Grails
+
+Comme précédemment, j'ai choisi grails pour le framework applicatif. Tout simplement, parce que c'est celui qui me convient le mieux depuis que j'ai abandonné Wicket (trop lourd à mon goût, et je ne trouve pas ça propre de mettre la plupart du code dans les constructeurs).
+
+On démarre Eclipse avec les plugins SpringSource Grails qui vont bien, nouveau projet, et ça roule tout seul.
+
+== Twitter boostrap
+
+Vu mes compétences de graphistes et de designer, je me suis dit qu'utiliser un framework HTML/CSS tout fait ne serait pas un mal. Même si le rendu actuel est pour le moment assez austère pour un jeu, cela a le mérite d'être clair, _responsive_ du peu que j'ai essayé, et plutôt simple à mettre en place.
+
+Un petit tour sur le http://twitter.github.com/bootstrap/[site officiel de Boostrap], une customisation pour avoir les fichiers images à l'emplacement par défaut de grails, et le tour est joué.
+
+== Contenu
+
+Vu ma disponibilité actuelle, et qu'en général, je ne me soucie que très peu de cet aspect là d'un projet, j'ai décidé de commencer par le contenu et en particulier : les règles.
+
+Les règles sont donc disponibles en français et en anglais (approximatif car à grands coups de google translate) sur la page correspondante.
+
+Ce sont les règles telles qu'écrit dans http://globalgamejam.org/2011/london-epidemic[le livre des règles] que l'on peut trouver ailleurs sur le net.
+
+Les images sont issues d'une version plus récente de ce même document gracieusement fournie par une des 4 créateurs du jeu sur table.
+
+Voilà pour mon avancement du mois de juin (oui, je sais, je suis en retard pour mon article d'avancement).
+
+Ah ! Avant que j'oublie, voici les liens indispensables :
+
+* https://github.com/Isammoc/london-epidemic/tree/769436b8a148e90d1e3ef70f565d762d08f050b0[Le code source sur github]
+* [line-through]#http://london.isammoc.net[Le serveur de démo]#
+
+Bon, maintenant, je retourne à mon code, et j'essaye de créer plein de pages sans fonctionnalités, mais avec du contenu !

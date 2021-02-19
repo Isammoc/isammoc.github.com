@@ -1,0 +1,12 @@
+baseURL: "http://blog.isammoc.net/"
+languageCode: "fr-fr"
+title: "Au coin d'une table"
+theme: "PaperMod"
+menu:
+  main:
+    - identifier: about
+      name: À propos
+      url: /about/
+      weight: 10
+permalinks:
+  posts: /blog/:year/:month/:day/:title/

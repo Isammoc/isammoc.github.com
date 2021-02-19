@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  server:
+    image: klakegg/hugo:asciidoctor
+    command: server
+    volumes:
+      - ".:/src"
+    ports:
+     - "1313:1313"
