@@ -1,0 +1,18 @@
+#!/bin/sh
+
+/usr/bin/asciidoctor \
+  --trace \
+  --verbose \
+  --require asciidoctor-html5s \
+  --base-dir ./content \
+  --no-header-footer \
+  --attribute nofooter \
+  --attribute docinfo=shared \
+  --attribute icons=font \
+  --attribute source-highlighter=highlightjs \
+  --attribute sectlinks \
+  --attribute sectanchors \
+  --attribute figure-caption! \
+  --attribute toc-title! \
+  --backend html5s \
+  "$@"

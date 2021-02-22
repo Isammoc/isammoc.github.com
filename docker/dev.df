@@ -1,0 +1,3 @@
+FROM klakegg/hugo:asciidoctor
+RUN gem install asciidoctor-html5s
+ENV PATH=/src/bin:$PATH

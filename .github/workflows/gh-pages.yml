@@ -22,11 +22,25 @@ jobs:
         with:
           ruby-version: 2.7
 
-      - run: gem install asciidoctor
+      - run: gem install asciidoctor asciidoctor-html5s
 
       - name: Run Hugo
         run: |
-          alias asciidoctor="asciidoctor --attribute=experimental=true --attribute=icons=font"
+          alias asciidoctor="asciidoctor \
+                               --trace \
+                               --verbose \
+                               --require asciidoctor-html5s \
+                               --base-dir ./content \
+                               --no-header-footer \
+                               --attribute nofooter \
+                               --attribute docinfo=shared \
+                               --attribute icons=font \
+                               --attribute source-highlighter=highlightjs \
+                               --attribute sectlinks \
+                               --attribute sectanchors \
+                               --attribute figure-caption! \
+                               --attribute toc-title! \
+                               --backend html5s"
           hugo --minify
 
       - name: Deploy
@@ -35,3 +49,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           cname: blog.isammoc.net
+          force_orphan: true
