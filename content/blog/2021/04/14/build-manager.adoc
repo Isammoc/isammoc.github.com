@@ -1,0 +1,55 @@
+---
+title: "Build manager"
+layout: post
+date: 2021-04-14
+time: 17:03
+tags:
+  - maven
+  - build
+categories: dev
+---
+
+Récemment, un ami m'a demandé par où commencer pour comprendre comment fonctionne maven et comment apprendre à déployer une application. Le tout en comprenant ce que font les outils.
+
+Je propose donc ici de faire manuellement étape par étape, les différentes choses que ces outils font à notre place.
+
+== Maven
+
+* Compiler un seul source
++
+Partir d'un `HelloWorld.java` et obtenir un `HelloWorld.class`.
++
+* Exécuter le programme
++
+Afficher le hello world dans la console
++
+* Compiler un répertoire de source
++
+Avoir deux sources (le message à afficher vient d'une constante dans une autre classe)
++
+Exécuter
+* Garder un code source propre
++
+Les fichiers `.class` ne doivent pas être dans le même répertoire que les sources.
++
+* Compiler avec une dépendance
++
+Récupérer à la main un jar d'une bibliothèque simple (qui n'a aucune dépendance elle-même), le mettre dans le projet.
+Faire en sorte que notre code source l'utilise.
++
+* Récupérer la dépendance
++
+Le jar ne doit pas apparaitre dans notre répertoire de projet (il ne nous appartient pas et c'est un binaire que l'on peut récupérer à chaque fois si nécessaire)
++
+* Récupérer une grappe de dépendances
++
+Récupérer une librairie qui a des dépendances... et ses dépendances.
+Par exemple, junit
++
+* Exécuter un test
+* Générer un artefact
+* Générer un artefact sans les binaires de test
+* Générer un exécutable
+* Publier un artefact
++
+Uploader un artefact quelque part (ftp, http, scp, qu'importe)
