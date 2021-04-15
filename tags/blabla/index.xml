@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blabla on Au coin d&#39;une table</title>
+    <link>https://blog.isammoc.net/tags/blabla/</link>
+    <description>Recent content in blabla on Au coin d&#39;une table</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 21 Sep 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.isammoc.net/tags/blabla/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Premier article</title>
+      <link>https://blog.isammoc.net/blog/2011/09/21/premier-article/</link>
+      <pubDate>Wed, 21 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/blog/2011/09/21/premier-article/</guid>
+      <description>Voilà, j’ai décidé d’un commun accord avec moi-même de commencer un blog.
+  Mais pourquoi un autre blog ?
+   A l’origine, je pensais faire des tutos et des cours complets sur le site du zéro (site que je recommande chaudement, d’ailleurs), mais par manque de temps et surtout de rigueur, je n’ai jamais pu finir complètement un tutos entier.
+  Pourquoi faire un blog alors ?</description>
+    </item>
+    
+  </channel>
+</rss>

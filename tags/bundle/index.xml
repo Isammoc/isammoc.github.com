@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bundle on Au coin d&#39;une table</title>
+    <link>https://blog.isammoc.net/tags/bundle/</link>
+    <description>Recent content in bundle on Au coin d&#39;une table</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 12 Apr 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.isammoc.net/tags/bundle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Workflow git svn et git bundle</title>
+      <link>https://blog.isammoc.net/blog/2012/04/12/workflow-git-svn-bundle/</link>
+      <pubDate>Thu, 12 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/blog/2012/04/12/workflow-git-svn-bundle/</guid>
+      <description>Il y a quelques temps, j’expliquais mon workflow git-svn. J’avais donc mes petites habitudes, tout allait bien. Un jour, le chef vient voir notre petite équipe et désigne deux de mes collègues pour aller chez le client. Le problème survient lorsque l’on connait les restrictions : pas de connexion direct, seul les mails passent et il va falloir faire des modifications en live (ie. chez le client) et bien sûr, on doit rester synchronisé.</description>
+    </item>
+    
+  </channel>
+</rss>

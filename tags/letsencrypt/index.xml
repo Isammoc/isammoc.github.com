@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>letsencrypt on Au coin d&#39;une table</title>
+    <link>https://blog.isammoc.net/tags/letsencrypt/</link>
+    <description>Recent content in letsencrypt on Au coin d&#39;une table</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sat, 12 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.isammoc.net/tags/letsencrypt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Let&#39;s encrypt</title>
+      <link>https://blog.isammoc.net/blog/2015/12/12/letsencrypt/</link>
+      <pubDate>Sat, 12 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/blog/2015/12/12/letsencrypt/</guid>
+      <description>Avoir un site HTTP, c’est has been. Maintenant, il faut que tout soit en HTTPS. Oui, mais voilà, jusqu’à récemment, c’était payant ! Heureusement, avec Let’s Encrypt, c’est maintenant possible d’avoir un certificat SSL gratuitement.
+ J’ai reçu mon mail d’acceptation à l’open beta il n’y a pas si longtemps, et du coup, j’en profite pour passer mes sites persos en HTTPS.
+ Pour rappel, je suis sur Ubuntu 15.10, j’utilise nginx comme serveur web et j’ai déjà git d’installé.</description>
+    </item>
+    
+  </channel>
+</rss>

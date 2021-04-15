@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://blog.isammoc.net/</loc>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/</loc>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/build/</loc>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/2021/04/14/build-manager/</loc>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/categories/</loc>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/categories/dev/</loc>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/maven/</loc>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/</loc>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/categories/admin/</loc>
+    <lastmod>2015-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/2015/12/12/letsencrypt/</loc>
+    <lastmod>2015-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/letsencrypt/</loc>
+    <lastmod>2015-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/ssl/</loc>
+    <lastmod>2015-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/acronyme/</loc>
+    <lastmod>2015-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/categories/acronyme/</loc>
+    <lastmod>2015-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/bonnes-pratiques/</loc>
+    <lastmod>2015-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/2015/12/05/top/</loc>
+    <lastmod>2015-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/r%C3%A9union/</loc>
+    <lastmod>2015-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/categories/blabla/</loc>
+    <lastmod>2015-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/jekyll/</loc>
+    <lastmod>2015-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/2015/12/01/nouveau-theme/</loc>
+    <lastmod>2015-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/continuous-integration/</loc>
+    <lastmod>2012-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/git/</loc>
+    <lastmod>2012-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/grails/</loc>
+    <lastmod>2012-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/integration-continue/</loc>
+    <lastmod>2012-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/london/</loc>
+    <lastmod>2012-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/categories/project/</loc>
+    <lastmod>2012-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/travis/</loc>
+    <lastmod>2012-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/2012/08/05/travis-ci/</loc>
+    <lastmod>2012-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/2012/07/02/london-bootstrap/</loc>
+    <lastmod>2012-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/categories/projet/</loc>
+    <lastmod>2012-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/2012/05/31/london-conception/</loc>
+    <lastmod>2012-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/2012/05/17/game-design/</loc>
+    <lastmod>2012-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/2012/04/24/london-on-recommence/</loc>
+    <lastmod>2012-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/bundle/</loc>
+    <lastmod>2012-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/categories/experience/</loc>
+    <lastmod>2012-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/svn/</loc>
+    <lastmod>2012-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/workflow/</loc>
+    <lastmod>2012-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/2012/04/12/workflow-git-svn-bundle/</loc>
+    <lastmod>2012-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/2012/03/27/london-epidemic-intro/</loc>
+    <lastmod>2012-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/2012/02/28/30-days-to-learn-jquery/</loc>
+    <lastmod>2012-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/javascript/</loc>
+    <lastmod>2012-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/jquery/</loc>
+    <lastmod>2012-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/categories/jquery/</loc>
+    <lastmod>2012-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/design-pattern/</loc>
+    <lastmod>2011-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/2011/10/24/observer/</loc>
+    <lastmod>2011-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/java/</loc>
+    <lastmod>2011-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/categories/theorie/</loc>
+    <lastmod>2011-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/2011/10/05/singleton/</loc>
+    <lastmod>2011-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/2011/09/25/workflow-git-svn/</loc>
+    <lastmod>2011-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/tags/blabla/</loc>
+    <lastmod>2011-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.isammoc.net/blog/2011/09/21/premier-article/</loc>
+    <lastmod>2011-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>

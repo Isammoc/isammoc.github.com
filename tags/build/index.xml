@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>build on Au coin d&#39;une table</title>
+    <link>https://blog.isammoc.net/tags/build/</link>
+    <description>Recent content in build on Au coin d&#39;une table</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 14 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.isammoc.net/tags/build/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build manager</title>
+      <link>https://blog.isammoc.net/blog/2021/04/14/build-manager/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/blog/2021/04/14/build-manager/</guid>
+      <description>Récemment, un ami m’a demandé par où commencer pour comprendre comment fonctionne maven et comment apprendre à déployer une application. Le tout en comprenant ce que font les outils.
+ Je propose donc ici de faire manuellement étape par étape, les différentes choses que ces outils font à notre place.
+ Maven   Compiler un seul source
+Partir d’un HelloWorld.java et obtenir un HelloWorld.class.
+   Exécuter le programme</description>
+    </item>
+    
+  </channel>
+</rss>

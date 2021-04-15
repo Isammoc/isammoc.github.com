@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>experience on Au coin d&#39;une table</title>
+    <link>https://blog.isammoc.net/categories/experience/</link>
+    <description>Recent content in experience on Au coin d&#39;une table</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 12 Apr 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.isammoc.net/categories/experience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Workflow git svn et git bundle</title>
+      <link>https://blog.isammoc.net/blog/2012/04/12/workflow-git-svn-bundle/</link>
+      <pubDate>Thu, 12 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/blog/2012/04/12/workflow-git-svn-bundle/</guid>
+      <description>Il y a quelques temps, j’expliquais mon workflow git-svn. J’avais donc mes petites habitudes, tout allait bien. Un jour, le chef vient voir notre petite équipe et désigne deux de mes collègues pour aller chez le client. Le problème survient lorsque l’on connait les restrictions : pas de connexion direct, seul les mails passent et il va falloir faire des modifications en live (ie. chez le client) et bien sûr, on doit rester synchronisé.</description>
+    </item>
+    
+    <item>
+      <title>Workflow git-svn</title>
+      <link>https://blog.isammoc.net/blog/2011/09/25/workflow-git-svn/</link>
+      <pubDate>Sun, 25 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/blog/2011/09/25/workflow-git-svn/</guid>
+      <description>Dans mon entreprise actuelle, git n’est pas encore réellement utilisé.Déjà qu’il y a à peine un an, c’est CVS qui primait, il ne faut pas trop demander.Actuellement, donc, notre gestionnaire de sources officiel est SVN.Mais comme le serveur central n’est pas dans l’agence dans laquelle je travaille, cela se révèle pénible à chaque rafraichissement ou à chaque visionnage de l’historique (Environ 10 minutes chrono pour voir l’historique d’un fichier).N’en pouvant plus, et ayant récemment découvert le bonheur d’utilisation de git, je me suis décidé à l’utiliser en tant que client SVN puisque cela est possible grâce à git-svn.</description>
+    </item>
+    
+  </channel>
+</rss>

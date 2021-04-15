@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jekyll on Au coin d&#39;une table</title>
+    <link>https://blog.isammoc.net/tags/jekyll/</link>
+    <description>Recent content in jekyll on Au coin d&#39;une table</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 01 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.isammoc.net/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Un nouveau theme</title>
+      <link>https://blog.isammoc.net/blog/2015/12/01/nouveau-theme/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/blog/2015/12/01/nouveau-theme/</guid>
+      <description>Voilà, j’essaye de faire mon propre thème jekyll.
+ En partant du theme de base (jekyll new site), je m’essaye à faire mon css, mes layouts, mes includes, bref tout ce qu’il faut pour avoir un blog propre et à mon gout. Le résultat se voit directement ici, ou encore sur https://github.com/Isammoc/jekyll-theme.
+ Je vous l’accorde, je n’ai pas encore trouvé de nom.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

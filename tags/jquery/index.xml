@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jquery on Au coin d&#39;une table</title>
+    <link>https://blog.isammoc.net/tags/jquery/</link>
+    <description>Recent content in jquery on Au coin d&#39;une table</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 28 Feb 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.isammoc.net/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apprendre jQuery avec tutplus</title>
+      <link>https://blog.isammoc.net/blog/2012/02/28/30-days-to-learn-jquery/</link>
+      <pubDate>Tue, 28 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/blog/2012/02/28/30-days-to-learn-jquery/</guid>
+      <description>Dans mon travail actuel, je dois, entre autres choses, utiliser jquery. J’ai bien des notions de base de javascript, mais j’aime aller jusqu’au bout des choses, savoir réellement ce que je fais. Du coup, j’ai décidé de chercher des tutoriaux gratuits (je suis pingre) et j’ai trouvé le cours de tutplus.
+ 30 Days to Learn jQuery Les cours en question peuvent se trouver à l’adresse http://tutsplus.com/course/30-days-to-learn-jquery/.
+ C’est effectivement en anglais (désolé pour les anglophobes), et malgré que je ne suis pas un anglophone aguerri, j’arrive tout à fait à comprendre.</description>
+    </item>
+    
+  </channel>
+</rss>

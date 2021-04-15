@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java on Au coin d&#39;une table</title>
+    <link>https://blog.isammoc.net/tags/java/</link>
+    <description>Recent content in java on Au coin d&#39;une table</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 24 Oct 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.isammoc.net/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design pattern : Observateur</title>
+      <link>https://blog.isammoc.net/blog/2011/10/24/observer/</link>
+      <pubDate>Mon, 24 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/blog/2011/10/24/observer/</guid>
+      <description>Le Design Pattern Observer (Observateur / Observé) est un pattern de comportement. Il permet d’être à l’écoute d’évènements, notemment la modification d’attributs. On appelle souvent &amp;#34;écouteur&amp;#34; les observateurs. Autres noms : Dependents, Publish-Subscribe
+ Description du problème On veut depuis une instance connaître le moment où un attribut d’une autre instance est modifié. On veut pouvoir effectuer des actions lorsqu’un évènement survient.
+ Exemple de cas d’utilisation :
+   Lorsque l’on a plusieurs vues sur le même modèle.</description>
+    </item>
+    
+    <item>
+      <title>Design pattern : Le singleton</title>
+      <link>https://blog.isammoc.net/blog/2011/10/05/singleton/</link>
+      <pubDate>Wed, 05 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/blog/2011/10/05/singleton/</guid>
+      <description>Il y a un an ou deux, j’ai utilisé mon temps libre pour mettre en place une mailing-list décrivant certains points de la programmation orientée objet, et les premiers sujets étaient tout naturellement les design patterns. Je profite donc de l’ouverture de mon blog pour ne pas perdre ces données.
+ Description du problème Nous désirons un type dont on ne peut avoir qu’une seule instance (ou un nombre limité d’instances) durant toute l’exécution du programme.</description>
+    </item>
+    
+  </channel>
+</rss>

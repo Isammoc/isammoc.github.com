@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Au coin d&#39;une table</title>
+    <link>https://blog.isammoc.net/categories/</link>
+    <description>Recent content in Categories on Au coin d&#39;une table</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 14 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.isammoc.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dev</title>
+      <link>https://blog.isammoc.net/categories/dev/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/categories/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>admin</title>
+      <link>https://blog.isammoc.net/categories/admin/</link>
+      <pubDate>Sat, 12 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/categories/admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>acronyme</title>
+      <link>https://blog.isammoc.net/categories/acronyme/</link>
+      <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/categories/acronyme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blabla</title>
+      <link>https://blog.isammoc.net/categories/blabla/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/categories/blabla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project</title>
+      <link>https://blog.isammoc.net/categories/project/</link>
+      <pubDate>Sun, 05 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/categories/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>projet</title>
+      <link>https://blog.isammoc.net/categories/projet/</link>
+      <pubDate>Mon, 02 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/categories/projet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>experience</title>
+      <link>https://blog.isammoc.net/categories/experience/</link>
+      <pubDate>Thu, 12 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/categories/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jquery</title>
+      <link>https://blog.isammoc.net/categories/jquery/</link>
+      <pubDate>Tue, 28 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/categories/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theorie</title>
+      <link>https://blog.isammoc.net/categories/theorie/</link>
+      <pubDate>Mon, 24 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.isammoc.net/categories/theorie/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
